@@ -17,6 +17,17 @@
     <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
     <label for="vehicle3"> I have a boat</label><br>
     <hr>
-    <label for="comment">Comment</label>
+    <label for="comment">Comment</label><br>
     <input class="border ml-1 rounded px-1" type="text" id="comment" name="comment">
+    <br>
+    <hr>
+    <button onclick="functionFun()">Click me!</button>
+
+    <button onclick="console.log(Date())">What is the time?</button>
 @endsection
+
+<script>
+    function functionFun() {
+        console.log('hello there!');
+    }
+</script>

@@ -1,0 +1,14 @@
+.hoverable:hover {
+    transform: scale(1.1);
+}
+
+.hoverable {
+    transition: transform .7s ease-in-out;
+}
+
+.weird-div {
+    width: 300px;
+    border: 15px solid inherit;
+    padding: 50px;
+    margin: 20px;
+}
