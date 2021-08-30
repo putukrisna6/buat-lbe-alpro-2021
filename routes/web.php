@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProfilesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +16,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/profiles', [ProfilesController::class, 'index']);
+Route::get('/insert', [ProfilesController::class, 'create']);
+Route::post('/store', [ProfilesController::class, 'store']);
+Route::get('/run', function () {
+    return view('run');
 });
