@@ -6,7 +6,7 @@
         <div class="card-header">User Profile</div>
         <div class="card-body">
         <h5 class="card-title">{{ $d->name }}</h5>
-        <p class="card-text">{{ $d->description }}</p>
+        <p class="card-text">{!! $d->description !!}</p>
         <div style="display: none">
             <ul>
                 <li>{{ $d->email }}</li>
