@@ -8,8 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="{{ asset('css/app.css', true) }}">
-        <link rel="stylesheet" href="{{ asset('css/styles.css', true) }}">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 
         <!-- Styles -->
         <style>
@@ -60,5 +60,5 @@
             </div>
         </footer>
     </body>
-    <script src="{{ asset('js/app.js', true) }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 </html>
